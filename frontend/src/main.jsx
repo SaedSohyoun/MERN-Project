@@ -7,9 +7,9 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <ChakraProvider>
+      <Provider>
         <App />
-      </ChakraProvider>
+      </Provider>
     </BrowserRouter>
   </StrictMode>
 );
